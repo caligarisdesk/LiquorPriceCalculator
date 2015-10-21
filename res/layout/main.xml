@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message" />
+    <TextView
+        android:id="@+id/baseprice_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/label_text_size"
+        android:text="@string/baseprice_label"
+    	android:layout_marginLeft="@dimen/Margin" />
+    <com.example.liquorpricecalculator.EditNumber
+        android:id="@+id/baseprice"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint ="@string/baseprice_hint"
+        android:inputType="numberDecimal"
+        android:text="@string/baseprice"
+        android:layout_margin="@dimen/Margin"
+        android:gravity="right|center_vertical" 
+        />
+    <TextView
+        android:id="@+id/bottlesize_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/label_text_size"
+        android:text="@string/bottlesize_label"
+        android:layout_marginLeft="@dimen/Margin"
+        />
+    <com.example.liquorpricecalculator.EditNumber
+        android:id="@+id/bottlesize"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint ="@string/bottlesize_hint"
+        android:inputType="numberDecimal"
+        android:text="@string/bottlesize"
+        android:layout_margin="@dimen/Margin"
+        android:gravity="right|center_vertical"
+        />
+     <TextView
+        android:id="@+id/price_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/label_text_size"
+        android:text="@string/price_label"
+        android:layout_marginLeft="@dimen/Margin"
+        />
+    <TextView
+        android:id="@+id/price"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint ="@string/price_hint"
+        android:text="@string/price"
+        android:layout_marginLeft="@dimen/Margin"
+        android:gravity="left|center_vertical"
+        />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LiquorPriceCalculator</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="bottlesize"></string>
+    <string name="bottlesize_label">Bottle size:</string>
+    <string name="bottlesize_hint">Size of bottle in mL.</string>
+    
+    <string name="baseprice"></string>
+    <string name="baseprice_label">Base price:</string>
+    <string name="baseprice_hint">Price before taxes.</string>
+    
+    <string name="price"></string>
+    <string name="price_label">Final price:</string>
+    <string name="price_hint">Calculated after tax price.</string>
+    
+    <string name="message">Enter price and bottle size.</string>
+
+</resources>
+
